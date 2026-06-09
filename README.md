@@ -10,8 +10,8 @@
 
   <br>
 
-  <h1 style="margin: 12px 0 2px 0; padding: 0; border: none; outline: none;">
-    <a href="https://instinct323.github.io/" target="_blank" style="text-decoration: none; outline: none;">
+  <h1 style="margin: 12px 0 2px 0; padding: 0; border: none; font-size: 32px;">
+    <a href="https://instinct323.github.io/" target="_blank" style="text-decoration: none;">
       🪐 INSTINCT323.GITHUB.IO 🪐
     </a>
   </h1>
