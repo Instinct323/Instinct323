@@ -1,8 +1,10 @@
 <div align="center">
 
-  <a href="https://instinct323.github.io/" target="_blank">
-    <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3500&pause=1000&color=A9C7FF&center=true&vCenter=true&width=750&lines=%E2%9C%A8+WELCOME+TO+MY+CYBER+SPACE+%E2%9C%A8;%F0%9F%9A%80+Click+Here+to+Visit+My+Homepage+%F0%9F%9A%80" alt="Typing SVG" />
-  </a>
+  <div style="width: 100%; display: flex; justify-content: center;">
+    <a href="https://instinct323.github.io/" target="_blank">
+      <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=20&duration=3500&pause=1000&color=A9C7FF&center=true&vCenter=true&width=400&lines=%E2%9C%A8+WELCOME+TO+MY+CYBER+SPACE+%E2%9C%A8;%F0%9F%9A%80+Click+Here+to+Visit+My+Homepage+%F0%9F%9A%80" alt="Typing SVG" />
+    </a>
+  </div>
 
   <img src="./glow-line.svg" width="100%" style="margin: 8px 0; display: block;" alt="Glow Line Top">
 
