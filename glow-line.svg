@@ -1,0 +1,30 @@
+<svg width="800" height="12" viewBox="0 0 800 12" xmlns="http://www.w3.org/2000/svg">
+  <style>
+    /* 利用媒体查询自动适配 GitHub 的白天/黑夜模式 */
+    @media (prefers-color-scheme: dark) {
+      .line { fill: url(#lineGlowDark); }
+      .dot { fill: #a2d2ff; }
+    }
+    @media (prefers-color-scheme: light) {
+      .line { fill: url(#lineGlowLight); }
+      .dot { fill: #54a0ff; }
+    }
+  </style>
+  <defs>
+    <linearGradient id="lineGlowDark" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#0d1117" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#a2d2ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#0d1117" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="lineGlowLight" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#54a0ff" stop-opacity="1"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <rect class="line" x="0" y="5" width="100%" height="2"/>
+  <circle class="dot" cx="400" cy="6" r="3" opacity="0.9">
+    <animate attributeName="r" values="3;5;3" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="opacity" values="0.9;0.4;0.9" dur="2s" repeatCount="indefinite"/>
+  </circle>
+</svg>
